@@ -1,10 +1,10 @@
 {
   "name": "js-system-monitor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Obtain and show detailed information about the machine in which it runs with js-system-monitor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EduardYan/https://github.com/EduardYan/js-system-monitor.git"
+    "url": "git+https://github.com/EduardYan/https:.git"
   },
   "main": "src/index.js",
   "type": "module",
@@ -12,7 +12,7 @@
     "start": "node src/index.js"
   },
   "bin": {
-    "js-system-monitor": "./src/index.js"
+    "js-system-monitor": "src/index.js"
   },
   "keywords": [
     "javascript",
