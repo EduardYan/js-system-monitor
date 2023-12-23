@@ -1,6 +1,6 @@
 {
   "name": "js-system-monitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Obtain and show detailed information about the machine in which it runs with js-system-monitor",
   "repository": {
     "type": "git",
@@ -10,6 +10,9 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js"
+  },
+  "bin": {
+    "js-system-monitor": "./src/index.js"
   },
   "keywords": [
     "javascript",

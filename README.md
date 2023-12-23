@@ -1,13 +1,11 @@
 # Js System Monitor.
 
-### A simple system monitor using **node**.
+## A simple system monitor using **node**.
 
-## USE.
-
-**Only execute the file main.js**
+**Only execute this command:**
 
 ```bash
-node ./main.js
+npx js-system-monitor
 ```
 
 ## Screenshot
