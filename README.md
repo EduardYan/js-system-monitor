@@ -10,4 +10,4 @@ npx js-system-monitor
 
 ## Screenshot
 
-![screenthot](./doc/screenshot.png)
+![screenthot](https://github.com/EduardYan/js-system-monitor/raw/main/doc/screenshot.png)
