@@ -1,6 +1,6 @@
 {
   "name": "js-system-monitor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Obtain and show detailed information about the machine in which it runs with js-system-monitor",
   "repository": {
     "type": "git",
