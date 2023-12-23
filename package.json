@@ -4,7 +4,7 @@
   "description": "Obtain and show detailed information about the machine in which it runs with js-system-monitor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EduardYan/https:.git"
+    "url": "git+https://github.com/EduardYan/js-system-monitor"
   },
   "main": "src/index.js",
   "type": "module",
