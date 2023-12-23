@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * This is the principal file for
  * execute the SYSTEM MONITOR.
