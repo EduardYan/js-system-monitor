@@ -1,4 +1,4 @@
-# Js System Monitor.
+# Js System Monitor 🖥️
 
 ## A simple system monitor using **node**.
 
