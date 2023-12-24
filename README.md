@@ -5,7 +5,9 @@
 **Only execute this command:**
 
 ```bash
-npx js-system-monitor
+git clone https://github.com/EduardYan/js-system-monitor.git
+cd js-system-monitor
+npm start
 ```
 
 ## Screenshot

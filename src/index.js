@@ -5,8 +5,8 @@
  */
 
 import System from './class/System.js'
-import getFormatedInfo from './functions/getFormatedInfo.js'
 import showInfo from './functions/showInfo.js'
+import getFormatedInfo from './functions/getFormatedInfo.js'
 
 const mySystem = new System(getFormatedInfo())
 showInfo(mySystem)
