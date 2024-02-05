@@ -1,8 +1,8 @@
-import getInfo from "./getInfo.js";
-import validate from "./validate.js";
+import getInfo from './getInfo.js'
+import validate from './validate.js'
 
-function getFormatedInfo() {
-  const allInfo = getInfo();
+function getFormatedInfo () {
+  const allInfo = getInfo()
 
   // formatting the object to show
   return {
@@ -17,8 +17,8 @@ function getFormatedInfo() {
 
     freeRamMemory: (allInfo.freemem / 1024 ** 3).toFixed(2),
     userName: allInfo.userName,
-    allDateAndTime: `${allInfo.dateAndTimeCurrent.date}   ${allInfo.dateAndTimeCurrent.time}`,
-  };
+    allDateAndTime: `${allInfo.dateAndTimeCurrent.date}   ${allInfo.dateAndTimeCurrent.time}`
+  }
 }
 
-export default getFormatedInfo;
+export default getFormatedInfo

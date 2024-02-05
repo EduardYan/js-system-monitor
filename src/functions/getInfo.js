@@ -1,26 +1,26 @@
-import os from "node:os";
+import os from 'node:os'
 
-function getInfoSystem() {
-  const cpus = os.cpus();
-  const arch = os.arch();
-  const freemem = os.freemem();
-  const hostname = os.hostname();
-  const homedir = os.homedir();
-  const networkInterfaces = os.networkInterfaces();
-  const platform = os.platform();
-  const release = os.release();
-  const tmpdir = os.tmpdir();
-  const totalmem = os.totalmem();
-  const typeOs = os.type();
-  const userName = os.userInfo().username;
-  const versionOs = os.version();
-  const machine = os.machine();
+function getInfoSystem () {
+  const cpus = os.cpus()
+  const arch = os.arch()
+  const freemem = os.freemem()
+  const hostname = os.hostname()
+  const homedir = os.homedir()
+  const networkInterfaces = os.networkInterfaces()
+  const platform = os.platform()
+  const release = os.release()
+  const tmpdir = os.tmpdir()
+  const totalmem = os.totalmem()
+  const typeOs = os.type()
+  const userName = os.userInfo().username
+  const versionOs = os.version()
+  const machine = os.machine()
 
-  const date = new Date();
+  const date = new Date()
   const dateAndTimeCurrent = {
     date: `${date.getFullYear()}/${date.getMonth()}/${date.getDay()}`,
-    time: `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`,
-  };
+    time: `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+  }
 
   return {
     arch,
@@ -37,8 +37,8 @@ function getInfoSystem() {
     userName,
     versionOs,
     machine,
-    dateAndTimeCurrent,
-  };
+    dateAndTimeCurrent
+  }
 }
 
-export default getInfoSystem;
+export default getInfoSystem
